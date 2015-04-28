@@ -1,0 +1,14 @@
+load 'C:/WORKS/WS/Eclipse_Luna/Learn_gnuplot/D-1/plot1.gnu'
+
+gnuplot C:/WORKS/WS/Eclipse_Luna/Learn_gnuplot/D-1/plot1.gnu
+
+set output 'C:/WORKS/WS/Eclipse_Luna/Learn_gnuplot/D-1'
+save 'C:/WORKS/WS/Eclipse_Luna/Learn_gnuplot/D-1/plot2.gnu'
+
+load 'takeuchi_1.gnu'
+
+
+[console]
+//REF http://gnuplot.sourceforge.net/docs_4.2/node441.html
+set term wxt font ",12" # to change the font size only
+
